@@ -618,6 +618,10 @@ img {
   position: fixed;
   top: 0;
   left: 0%;
+  transform: translate(100%, 45%);
+  transition: transform 250ms linear;
+  /* opacity: 0; */
+  /* transition: opacity 1s linear; */
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.2);
@@ -646,7 +650,19 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+  padding: 6px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
   background-color: var(--white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  fill:
+  fill: #000000;
+  cursor: pointer;
+}
+
+.is-hidden {
+  transform: translate(0);
+  transition: transform 250ms linear;
+  /* opacity: 1;
+  transition: opacity 1s linear; */
 }
