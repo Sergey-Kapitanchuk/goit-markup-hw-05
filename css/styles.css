@@ -38,8 +38,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 25px;
   width: 1200px;
   margin: 0 auto;
   padding: auto 15px;
@@ -79,6 +77,8 @@ img {
   text-decoration: none;
   margin-left: 15px;
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo .web,
@@ -97,16 +97,13 @@ img {
   fill: var(--accent-color);
 } */
 .header .link {
-  height: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .head-link {
   display: flex;
   align-items: center;
-}
-
-.header.container a {
-  height: 100%;
 }
 
 .header .link {
@@ -149,7 +146,7 @@ img {
   background: var(--accent-color);
   border-radius: 2px;
   height: 4px;
-  bottom: -32px;
+  bottom: -1px;
 }
 
 /* style hero */
